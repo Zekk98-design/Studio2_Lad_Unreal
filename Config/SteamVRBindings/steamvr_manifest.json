@@ -84,6 +84,14 @@
 		{
 			"name": "/actions/main/in/Vive Trigger (R)",
 			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_TriggerL axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/VREditor_TriggerR axis",
+			"type": "vector1"
 		}
 	],
 	"action_sets": [
@@ -202,6 +210,8 @@
 			"/actions/main/out/vibrateright": "Haptic (Right)",
 			"/actions/main/in/Vive Trigger (L)": "Vive Trigger (L)",
 			"/actions/main/in/Vive Trigger (R)": "Vive Trigger (R)",
+			"/actions/main/in/VREditor_TriggerL axis": "VREditor_TriggerL",
+			"/actions/main/in/VREditor_TriggerR axis": "VREditor_TriggerR",
 			"/actions/main": "Main Game Actions"
 		}
 	]
