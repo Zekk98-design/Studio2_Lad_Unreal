@@ -31,150 +31,12 @@
 				},
 				{
 					"mode": "trackpad",
-					"path": "/user/hand/left/input/trackpad",
-					"inputs":
-					{
-						"touch":
-						{
-							"output": "/actions/main/in/VREditor_TouchL"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/application_menu",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/VREditor_ModifierL"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadDownL"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"west":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadLeftL"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"east":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadRightL"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"north":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadUpL"
-						}
-					}
-				},
-				{
-					"mode": "trackpad",
 					"path": "/user/hand/right/input/trackpad",
 					"inputs":
 					{
 						"touch":
 						{
-							"output": "/actions/main/in/VREditor_TouchR"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/application_menu",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/VREditor_ModifierR"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadDownR"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"west":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadLeftR"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"east":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadRightR"
+							"output": "/actions/main/in/Vive Touchpad Touched (R)"
 						}
 					}
 				},
@@ -189,40 +51,52 @@
 					{
 						"north":
 						{
-							"output": "/actions/main/in/VREditor_TrackpadUpR"
+							"output": "/actions/main/in/Vive Touchpad Up Pressed (R)"
 						}
 					}
 				},
 				{
-					"mode": "button",
-					"path": "/user/hand/left/input/grip",
+					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
 					"inputs":
 					{
-						"click":
+						"south":
 						{
-							"output": "/actions/main/in/VREditor_WorldMovementL"
+							"output": "/actions/main/in/Vive Touchpad Down Pressed (R)"
 						}
 					}
 				},
 				{
-					"mode": "trackpad",
-					"path": "/user/hand/left/input/trackpad",
+					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
 					"inputs":
 					{
-						"click":
+						"west":
 						{
-							"output": "/actions/main/in/VREditor_ConfirmRadialSelectionL"
+							"output": "/actions/main/in/Vive Touchpad Left Pressed (R)"
 						}
 					}
 				},
 				{
-					"mode": "button",
-					"path": "/user/hand/right/input/grip",
+					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
 					"inputs":
 					{
-						"click":
+						"east":
 						{
-							"output": "/actions/main/in/VREditor_WorldMovementR"
+							"output": "/actions/main/in/Vive Touchpad Right Pressed (R)"
 						}
 					}
 				},
@@ -233,7 +107,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/VREditor_ConfirmRadialSelectionR"
+							"output": "/actions/main/in/Vive Touchpad Pressed (R)"
 						}
 					}
 				},
@@ -256,50 +130,6 @@
 						"value":
 						{
 							"output": "/actions/main/in/VREditor_TriggerR axis"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/VREditor_TriggerAxisL axis"
-						}
-					}
-				},
-				{
-					"mode": "trackpad",
-					"path": "/user/hand/left/input/trackpad",
-					"inputs":
-					{
-						"position":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadPositionL_X,VREditor_TrackpadPositionL_Y X Y_axis2d"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/VREditor_TriggerAxisR axis"
-						}
-					}
-				},
-				{
-					"mode": "trackpad",
-					"path": "/user/hand/right/input/trackpad",
-					"inputs":
-					{
-						"position":
-						{
-							"output": "/actions/main/in/VREditor_TrackpadPositionR_X,VREditor_TrackpadPositionR_Y X Y_axis2d"
 						}
 					}
 				}
