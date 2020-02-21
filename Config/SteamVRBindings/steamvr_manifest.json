@@ -110,6 +110,10 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Vive Grip (R)",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/VREditor_TriggerL axis",
 			"type": "vector1"
 		},
@@ -248,6 +252,7 @@
 			"/actions/main/in/Vive Touchpad Left Pressed (R)": "Vive Touchpad Left Pressed (R)",
 			"/actions/main/in/Vive Touchpad Right Pressed (R)": "Vive Touchpad Right Pressed (R)",
 			"/actions/main/in/Vive Touchpad Pressed (R)": "Vive Touchpad Pressed (R)",
+			"/actions/main/in/Vive Grip (R)": "Vive Grip (R)",
 			"/actions/main/in/VREditor_TriggerL axis": "VREditor_TriggerL",
 			"/actions/main/in/VREditor_TriggerR axis": "VREditor_TriggerR",
 			"/actions/main/in/NewAxisMapping_0 axis": "NewAxisMapping_0",
