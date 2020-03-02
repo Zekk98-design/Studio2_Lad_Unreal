@@ -123,6 +123,17 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Grip (L)"
+						}
+					}
+				},
+				{
 					"mode": "scalar_constant",
 					"path": "/user/hand/right/input/trackpad",
 					"inputs":
