@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.atomkraftproject-11100242.ue4editor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "C:/Users/VR/Documents/GitHub/Studio2_Lad_Unreal/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "C:/Users/VR/Documents/Studio2_Lad_Unreal/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
