@@ -140,7 +140,7 @@
 					{
 						"value":
 						{
-							"output": "/actions/main/in/NewAxisMapping_0 axis"
+							"output": "/actions/main/in/Vive Touch Axis Vertical (R) axis"
 						}
 					}
 				},
@@ -151,7 +151,7 @@
 					{
 						"value":
 						{
-							"output": "/actions/main/in/NewAxisMapping_0 axis"
+							"output": "/actions/main/in/Vive Touch Axis Vertical (R) axis"
 						}
 					}
 				},
@@ -162,7 +162,7 @@
 					{
 						"value":
 						{
-							"output": "/actions/main/in/NewAxisMapping_1 axis"
+							"output": "/actions/main/in/Vive Touch Axis Horizontal (R) axis"
 						}
 					}
 				},
@@ -173,7 +173,18 @@
 					{
 						"value":
 						{
-							"output": "/actions/main/in/NewAxisMapping_1 axis"
+							"output": "/actions/main/in/Vive Touch Axis Horizontal (R) axis"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/Vive (R) Trackpad Touch axis"
 						}
 					}
 				},
