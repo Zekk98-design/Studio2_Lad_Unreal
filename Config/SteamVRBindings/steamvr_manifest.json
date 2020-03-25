@@ -118,28 +118,8 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/VREditor_TriggerL axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/VREditor_TriggerR axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/Vive Touch Axis Vertical (R) axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/Vive Touch Axis Horizontal (R) axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/Vive (R) Trackpad Touch axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/Vive (R) Trackpad X axis",
-			"type": "vector1"
+			"name": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d",
+			"type": "vector2"
 		}
 	],
 	"action_sets": [
@@ -266,12 +246,7 @@
 			"/actions/main/in/Vive Touchpad Pressed (R)": "Vive Touchpad Pressed (R)",
 			"/actions/main/in/Vive Grip (R)": "Vive Grip (R)",
 			"/actions/main/in/Vive Grip (L)": "Vive Grip (L)",
-			"/actions/main/in/VREditor_TriggerL axis": "VREditor_TriggerL",
-			"/actions/main/in/VREditor_TriggerR axis": "VREditor_TriggerR",
-			"/actions/main/in/Vive Touch Axis Vertical (R) axis": "Vive Touch Axis Vertical (R)",
-			"/actions/main/in/Vive Touch Axis Horizontal (R) axis": "Vive Touch Axis Horizontal (R)",
-			"/actions/main/in/Vive (R) Trackpad Touch axis": "Vive (R) Trackpad Touch",
-			"/actions/main/in/Vive (R) Trackpad X axis": "Vive (R) Trackpad X",
+			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main": "Main Game Actions"
 		}
 	]
