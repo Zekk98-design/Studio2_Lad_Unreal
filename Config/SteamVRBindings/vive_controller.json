@@ -34,9 +34,9 @@
 					"path": "/user/hand/right/input/trackpad",
 					"inputs":
 					{
-						"touch":
+						"click":
 						{
-							"output": "/actions/main/in/Vive Touchpad Touched (R)"
+							"output": "/actions/main/in/Vive Touchpad Pressed (R)"
 						}
 					}
 				},
@@ -101,17 +101,6 @@
 					}
 				},
 				{
-					"mode": "trackpad",
-					"path": "/user/hand/right/input/trackpad",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Vive Touchpad Pressed (R)"
-						}
-					}
-				},
-				{
 					"mode": "button",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
@@ -130,6 +119,17 @@
 						"click":
 						{
 							"output": "/actions/main/in/Vive Grip (L)"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Touchpad Pressed (L)"
 						}
 					}
 				},

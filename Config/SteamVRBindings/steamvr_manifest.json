@@ -86,7 +86,7 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Vive Touchpad Touched (R)",
+			"name": "/actions/main/in/Vive Touchpad Pressed (R)",
 			"type": "boolean"
 		},
 		{
@@ -106,15 +106,15 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Vive Touchpad Pressed (R)",
-			"type": "boolean"
-		},
-		{
 			"name": "/actions/main/in/Vive Grip (R)",
 			"type": "boolean"
 		},
 		{
 			"name": "/actions/main/in/Vive Grip (L)",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Vive Touchpad Pressed (L)",
 			"type": "boolean"
 		},
 		{
@@ -238,14 +238,14 @@
 			"/actions/main/out/vibrateright": "Haptic (Right)",
 			"/actions/main/in/Vive Trigger (L)": "Vive Trigger (L)",
 			"/actions/main/in/Vive Trigger (R)": "Vive Trigger (R)",
-			"/actions/main/in/Vive Touchpad Touched (R)": "Vive Touchpad Touched (R)",
+			"/actions/main/in/Vive Touchpad Pressed (R)": "Vive Touchpad Pressed (R)",
 			"/actions/main/in/Vive Touchpad Up Pressed (R)": "Vive Touchpad Up Pressed (R)",
 			"/actions/main/in/Vive Touchpad Down Pressed (R)": "Vive Touchpad Down Pressed (R)",
 			"/actions/main/in/Vive Touchpad Left Pressed (R)": "Vive Touchpad Left Pressed (R)",
 			"/actions/main/in/Vive Touchpad Right Pressed (R)": "Vive Touchpad Right Pressed (R)",
-			"/actions/main/in/Vive Touchpad Pressed (R)": "Vive Touchpad Pressed (R)",
 			"/actions/main/in/Vive Grip (R)": "Vive Grip (R)",
 			"/actions/main/in/Vive Grip (L)": "Vive Grip (L)",
+			"/actions/main/in/Vive Touchpad Pressed (L)": "Vive Touchpad Pressed (L)",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main": "Main Game Actions"
 		}
