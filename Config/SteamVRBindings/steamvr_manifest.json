@@ -118,6 +118,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/MenuButton Pressed (R)",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/MenuButton Pressed (L)",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -254,6 +262,8 @@
 			"/actions/main/in/Vive Grip (R)": "Vive Grip (R)",
 			"/actions/main/in/Vive Grip (L)": "Vive Grip (L)",
 			"/actions/main/in/Vive Touchpad Pressed (L)": "Vive Touchpad Pressed (L)",
+			"/actions/main/in/MenuButton Pressed (R)": "MenuButton Pressed (R)",
+			"/actions/main/in/MenuButton Pressed (L)": "MenuButton Pressed (L)",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main/in/VREditor_TriggerL axis": "VREditor_TriggerL",
 			"/actions/main/in/VREditor_TriggerR axis": "VREditor_TriggerR",

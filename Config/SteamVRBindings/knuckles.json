@@ -8,6 +8,83 @@
 		{
 			"sources": [
 				{
+					"mode": "button",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Trigger (L)"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Trigger (R)"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Touchpad Pressed (R)"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Grip (R)"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Grip (L)"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Touchpad Pressed (L)"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
+						}
+					}
+				},
+				{
 					"mode": "scalar_constant",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
