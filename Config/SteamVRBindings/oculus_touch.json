@@ -30,6 +30,17 @@
 					}
 				},
 				{
+					"mode": "joystick",
+					"path": "/user/hand/right/input/joystick",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Touchpad Pressed (R)"
+						}
+					}
+				},
+				{
 					"mode": "button",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
@@ -52,6 +63,39 @@
 					}
 				},
 				{
+					"mode": "joystick",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Vive Touchpad Pressed (L)"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/MenuButton Pressed (R)"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/x",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/MenuButton Pressed (L)"
+						}
+					}
+				},
+				{
 					"mode": "button",
 					"path": "/user/hand/left/input/application_menu",
 					"inputs":
@@ -59,6 +103,17 @@
 						"click":
 						{
 							"output": "/actions/main/in/MenuButton Pressed (L)"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/right/input/joystick",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
 						}
 					}
 				},
